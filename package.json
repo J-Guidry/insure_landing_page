@@ -1,0 +1,23 @@
+{
+  "name": "prj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o src/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Guidry/insure_landing_page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-Guidry/insure_landing_page/issues"
+  },
+  "homepage": "https://github.com/J-Guidry/insure_landing_page#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
