@@ -19,10 +19,22 @@ header {
   margin-top: 1rem;
   border: none;
   background-color: white;
+  cursor: pointer;
+}
+
+.mobile-close {
+  display: none;
+}
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 
 .navigation {
-  //display: none;
   background-color: $Vdrkviolet;
   letter-spacing: 1px;
   font-family: $fntfamilyB;
@@ -36,6 +48,7 @@ header {
   justify-content: space-around;
   padding-top: 15px;
   padding-bottom: 10px;
+  padding: 15px 20px 10px 20px;
 }
 
 .navigation ul li {
@@ -45,7 +58,7 @@ header {
   margin: 15px 0;
 }
 
-.navigation ul li:last-child {
+.box {
   border: 1px solid white;
   padding-top: 10px;
   padding-bottom: 10px;

@@ -13,6 +13,9 @@ img {
   max-width: 100%;
   height: auto; }
 
+ul {
+  padding: 0; }
+
 header {
   padding-top: 10px;
   padding-bottom: 10px; }
@@ -30,7 +33,18 @@ header {
   margin-right: 1rem;
   margin-top: 1rem;
   border: none;
-  background-color: white; }
+  background-color: white;
+  cursor: pointer; }
+
+.mobile-close {
+  display: none; }
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
 
 .navigation {
   background-color: #2b272f;
@@ -44,7 +58,8 @@ header {
   flex-direction: column;
   justify-content: space-around;
   padding-top: 15px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  padding: 15px 20px 10px 20px; }
 
 .navigation ul li {
   text-transform: uppercase;
@@ -52,7 +67,7 @@ header {
   color: white;
   margin: 15px 0; }
 
-.navigation ul li:last-child {
+.box {
   border: 1px solid white;
   padding-top: 10px;
   padding-bottom: 10px; }

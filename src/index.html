@@ -20,15 +20,25 @@
     <header>
       <img class="logo" src="images/logo.svg" alt="" class="logo" />
 
-      <button class="mobile-switch">
-        <img class="mobile-open" src="images/icon-hamburger.svg" alt="" />
-        <img class="mobile-close" src="images/icon-close.svg" alt="" />
+      <button
+        class="mobile-switch"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        <span class="screen-reader-text">Menu</span>
+
+        <img class="switch open-img" src="images/icon-hamburger.svg" alt="" />
+        <img
+          class="mobile-close switch close-img"
+          src="images/icon-close.svg"
+          alt=""
+        />
       </button>
-      <nav class="navigation">
-        <ul>
-          <li><a href="#">how we work</a></li>
-          <li><a href="#">blog</a></li>
-          <li><a href="#">account</a></li>
+      <nav class="navigation mobile-close" id="navbar" aria-hidden="true">
+        <ul role="menubar">
+          <li role="menuitem"><a href="#">how we work</a></li>
+          <li role="menuitem"><a href="#">blog</a></li>
+          <li role="menuitem"><a href="#">account</a></li>
           <li class="box"><a href="#">view plans</a></li>
         </ul>
         <img src="images/bg-pattern-mobile-nav.svg" alt="" />
