@@ -1,0 +1,34 @@
+.heading {
+  font-family: $fntfamilyH;
+  font-size: 2.4rem;
+  font-weight: $headingwt;
+}
+
+.paragraph {
+  line-height: 25px;
+  font-family: $fntfamilyB;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.intro {
+  background-image: url("images/bg-pattern-intro-left-mobile.svg"),
+    url("images/bg-pattern-intro-right-mobile.svg");
+  background-repeat: no-repeat;
+  //background-size: cover;
+  background-position: top left, bottom -60% right;
+  background-color: $drkviolet;
+  color: white;
+  padding: 130px 5%;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.banner-btn {
+  padding: 10px 20px;
+  margin-top: 30px;
+  display: inline-block;
+  font-family: $fntfamilyB;
+}
