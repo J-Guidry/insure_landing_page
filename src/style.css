@@ -1,3 +1,22 @@
+body {
+  margin: 0;
+  font-size: 16; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  color: unset; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+header {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
 .logo,
 .mobile-switch {
   display: inline-block; }
@@ -14,4 +33,29 @@
   background-color: white; }
 
 .navigation {
-  display: none; }
+  background-color: #2b272f;
+  letter-spacing: 1px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem; }
+
+.navigation ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 10px; }
+
+.navigation ul li {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin: 15px 0; }
+
+.navigation ul li:last-child {
+  border: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.navigation ul li a {
+  padding: 15px 0; }

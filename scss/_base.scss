@@ -3,7 +3,7 @@ $drkviolet: hsl(256, 26%, 20%);
 $gryblu: hsl(216, 30%, 68%);
 
 //Neutral
-$Vdrkviolet: hsl(256, 26%, 20%);
+$Vdrkviolet: hsl(270, 9%, 17%);
 $Dgryviolet: hsl(273, 4%, 51%);
 $Vlgtgry: hsl(0, 0%, 98%);
 
@@ -15,3 +15,22 @@ $fntfamilyH: "DM Serif Display", serif;
 $fntfamilyB: "Karla", sans-serif;
 $bdywt: 400;
 $Bbdywt: 700;
+
+body {
+  margin: 0;
+  font-size: $bodyfntsize;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
