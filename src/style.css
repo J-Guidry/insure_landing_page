@@ -11,7 +11,8 @@ a {
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+  display: block;}
 
 ul {
   padding: 0; }
@@ -140,6 +141,45 @@ header {
   color: white;
   border: 1px solid white; }
 
+  #services {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .services-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .service {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-p {
+    width: 70%;
+    margin: auto;
+  }
+  @media screen and (min-width: 1200px) {
+    .img-container {
+      align-self: end;
+      margin-right: 8%;
+      margin-top: -350px;
+      z-index: 1; }
+
+      .img-container img {
+        max-width: 95%;
+      }
+  }
+
+
 @media screen and (min-width: 950px) {
   .banner {
     flex-direction: column-reverse; }
@@ -148,10 +188,20 @@ header {
     background-image: url("images/bg-pattern-intro-left-desktop.svg"), url("images/bg-pattern-intro-right-desktop.svg");
     background-repeat: no-repeat;
     background-position: bottom -200px left, top right; }
-  .img-container {
-    align-self: end;
-    margin-right: 8%;
-    margin-top: -350px;
-    z-index: 1; }
+
+
   .paragraph {
-    width: 50%; } }
+    width: 45%; } 
+
+
+  .services-list {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+ 
+  #services .heading {
+    align-self: flex-start;
+    width: 90%;
+    margin: auto;
+  }
+  }
